@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container.active{
+    background-color: aqua;
+}
+
+.color-btn{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 22px;
+    color: white;
+    background-color: pink;
+    font-size: 25px;
+
+}
+.color-btn::selection{
+    color: white;
+}
+.color-btn:active{
+    box-shadow: 0px 0px 10px black;
+}

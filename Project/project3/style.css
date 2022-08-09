@@ -1,0 +1,112 @@
+/* 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 1px solid red;
+    list-style-type: none;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heading{
+    font-family: sans-serif;
+    font-size: 25px;
+    margin: 12px 0;
+    padding: 12px;
+}
+.container{
+    margin: 12px 0;
+    padding: 12px;
+}
+#inputField{
+    width: 520px;
+    padding: 12px;
+}
+#addTaskBtn{
+    padding: 12px;
+}
+.ulSection{
+    padding: 12px;
+}
+.liSection{
+   
+    margin: 12px 0;
+    display: flex;
+    
+}
+
+.task{
+   display: flex;
+   justify-content: left;
+    width: 520px;
+    text-align: center;
+    align-items: center;
+
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+}
+
+.operation-btn{
+    padding: 12px;
+} */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    list-style-type: none;
+    font-family: sans-serif;
+}
+main{
+    display: flex;
+    justify-content: center;
+    
+}
+.section-todo{
+    padding: 12px;
+    
+}
+.section-todo h2{
+    text-transform: uppercase;
+
+}
+.form-todo{
+    display: flex;
+    justify-content: center;
+    margin: 12px;
+}
+.todo-list{
+    margin: 12px;
+}
+.todo-list li{
+    display: flex;
+    justify-content: space-between;
+}
+.form-todo input[type="text"] {
+    width: 78%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    font-weight: 400;
+   
+
+  }
+.btn{
+    padding: 5px;
+    margin-left: 12px;
+}
+.todo-list li{
+    background-color: #333;
+    color: white;
+    padding: 12px;
+    margin: 12px 0;
+    
+}
